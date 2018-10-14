@@ -1,0 +1,51 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "有名人図鑑",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "weather",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ActorIntent",
+                    "slots": [
+                        {
+                            "name": "actor",
+                            "type": "AMAZON.Actor"
+                        }
+                    ],
+                    "samples": [
+                        "{actor} について詳しく教えて",
+                        "{actor} のことが知りたい",
+                        "{actor} を調査して",
+                        "{actor} について調べて",
+                        "{actor} は載っている",
+                        "{actor} の仕事を教えて",
+                        "{actor} の職業を調べて",
+                        "{actor} を調べて",
+                        "{actor} について教えて"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
